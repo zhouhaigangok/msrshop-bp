@@ -7,6 +7,12 @@ spring:
 
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8858
+  application:
+    name: msrshop-member
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml

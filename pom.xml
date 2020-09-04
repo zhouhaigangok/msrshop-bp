@@ -19,5 +19,6 @@
         <module>msrshop-order</module>
         <module>msrshop-ware</module>
         <module>msrshop-common</module>
+        <module>msrshop-gateway</module>
     </modules>
 </project>
